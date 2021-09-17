@@ -1,3 +1,6 @@
-Hello folks.
-I have added our developed playground files under 'Playgrounds' folder, and also i have added XCode project.
-I will commit the our works to Github week by week.
+## Burak GÖMEÇ - Hafta 3 Homework
+
+## Project's Gif
+<img src="https://github.com/116-iOS-Bootcamp-QNB-Finansbank/BurakGomec_Hafta3/blob/main/screen.gif" width="25%" height="25%"/>
+
+
