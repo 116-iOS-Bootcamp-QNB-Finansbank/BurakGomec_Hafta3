@@ -1,22 +1,18 @@
 //
-//  MyNavigationViewController.swift
+//  SliderViewController.swift
 //  BasicUIComponents
 //
-//  Created by Semih Emre ÜNLÜ on 12.09.2021.
+//  Created by Burak on 17.09.2021.
 //
 
 import UIKit
 
-class MyNavigationViewController: UINavigationController {
+class SliderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.navigationItem.backButtonTitle = ""
-        
-        let rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: nil)
-        self.navigationItem.rightBarButtonItem = rightBarButtonItem
     }
     
 
