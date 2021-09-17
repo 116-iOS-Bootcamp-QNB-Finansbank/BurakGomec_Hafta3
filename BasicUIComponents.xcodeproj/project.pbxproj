@@ -15,6 +15,8 @@
 		23E5078C26ECB48900596FFF /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5078B26ECB48900596FFF /* CalculatorViewController.swift */; };
 		67579EBC26F3F07700C6D20E /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67579EBB26F3F07700C6D20E /* SliderViewController.swift */; };
 		67579EBF26F3F1A200C6D20E /* MathOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67579EBE26F3F1A200C6D20E /* MathOperations.swift */; };
+		67579EC226F4D3C900C6D20E /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67579EC126F4D3C900C6D20E /* SliderCollectionViewCell.swift */; };
+		67579EC526F4DAE400C6D20E /* SliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67579EC426F4DAE400C6D20E /* SliderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		23E5078B26ECB48900596FFF /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		67579EBB26F3F07700C6D20E /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		67579EBE26F3F1A200C6D20E /* MathOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathOperations.swift; sourceTree = "<group>"; };
+		67579EC126F4D3C900C6D20E /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		67579EC426F4DAE400C6D20E /* SliderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 		23A2AA7726E4D504009310F0 /* BasicUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				67579EC326F4DADB00C6D20E /* Model */,
+				67579EC026F4D39F00C6D20E /* Cells */,
 				67579EBD26F3F18B00C6D20E /* Operations */,
 				235C707E26EC900F00D7B5BB /* ViewControllers */,
 				23A2AA7826E4D504009310F0 /* AppDelegate.swift */,
@@ -87,6 +93,22 @@
 				67579EBE26F3F1A200C6D20E /* MathOperations.swift */,
 			);
 			path = Operations;
+			sourceTree = "<group>";
+		};
+		67579EC026F4D39F00C6D20E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				67579EC126F4D3C900C6D20E /* SliderCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		67579EC326F4DADB00C6D20E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67579EC426F4DAE400C6D20E /* SliderModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +184,9 @@
 				23A2AA7926E4D504009310F0 /* AppDelegate.swift in Sources */,
 				23E5078C26ECB48900596FFF /* CalculatorViewController.swift in Sources */,
 				67579EBF26F3F1A200C6D20E /* MathOperations.swift in Sources */,
+				67579EC226F4D3C900C6D20E /* SliderCollectionViewCell.swift in Sources */,
 				23A2AA7B26E4D504009310F0 /* SceneDelegate.swift in Sources */,
+				67579EC526F4DAE400C6D20E /* SliderModel.swift in Sources */,
 				67579EBC26F3F07700C6D20E /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.semihemreunlu.BasicUIComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakgomec.BasicUIComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,7 +360,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.semihemreunlu.BasicUIComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakgomec.BasicUIComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
