@@ -12,7 +12,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     private var isTyping: Bool = false, operatorControl = false, multipleOperationControl = false
     private var bufferFirstNumberString = "", bufferSecondNumberString = ""
-    private var selectedOperator = MathOperations.KeyboardInputs.none
+    private var selectedOperator = MathOperations.Operations.none
     private var firstNumber = 0.0, secondNumber = 0.0, result = 0.0
     
     override func viewDidLoad() {
@@ -36,10 +36,8 @@ class CalculatorViewController: UIViewController {
         }
         else {
                 if isTyping {
-                    print(displayText)
                     resultLabel.text = displayText + digit
                 } else {
-                    print(digit)
                     resultLabel.text = digit
                     isTyping.toggle()
                 }
@@ -56,6 +54,7 @@ class CalculatorViewController: UIViewController {
         
         case "√":
             selectedOperator = .squareRoot
+            
             getSelectedOperationName()
             
         case "+":

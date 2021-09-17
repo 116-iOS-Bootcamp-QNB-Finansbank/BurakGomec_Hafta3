@@ -10,15 +10,7 @@ import Foundation
 class MathOperations{
     static let shared = MathOperations()
     
-    enum Operations {
-        case squareRoot
-        case addition
-        case subtraction
-        case multiplication
-        case division
-    }
-    
-    enum KeyboardInputs : String{
+    enum Operations: String{
         case squareRoot = "√"
         case addition = "+"
         case subtraction = "-"
